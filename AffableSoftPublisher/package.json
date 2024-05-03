@@ -1,0 +1,22 @@
+{
+  "name": "affablesoft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "GOOGLE_APPLICATION_CREDENTIALS=/Users/aniruddhaguin/Desktop/personal/AffableSoft/gcpcreds.json nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/pubsub": "^4.3.3",
+    "cassandra-driver": "^4.7.2",
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2"
+  }
+}
